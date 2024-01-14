@@ -1,0 +1,23 @@
+[project]
+name = "aaa-python-final-project"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "", email = ""},
+    {name = "lanya-dorkin", email = "danya.lorkin@gmail.com"},
+]
+dependencies = [
+    "python-telegram-bot>=20.7",
+    "pydantic-settings==2.0.0",
+    "flake8>=7.0.0",
+    "black>=23.12.1",
+    "pytest>=7.4.4",
+    "pytest-asyncio>=0.23.3",
+]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+package-type = "application"
